@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
 
-<h2>JavaScript Arrays</h2>
-
-<p id="demo"></p>
 
 <script>
 const UnitList = [{make: "Harley Davidson", type: "motorcyle", year: "2019"},
@@ -17,13 +11,22 @@ const UnitList = [{make: "Harley Davidson", type: "motorcyle", year: "2019"},
 ]
 
 //document.getElementById("demo").innerHTML = "Car owner is " + UnitList.make +" "+ //UnitList.type +" "+ UnitList.year; 
+ function display (UnitList){
+	 var makes =[];
+	  var types =[];
+	   var years =[];
+	    var specialVaue =[];
+	 
+	 for(var i = 0; i < UnitList.length; i++) {
+
+	}
 
 
-for(var i = 0; i < UnitList.length; i++) {
-   document.getElementById("demo").innerHTML = "Car owner is " + UnitList.make +" "+ UnitList.type +" "+ UnitList.year;
-}
+ }
+ 
+ 
+
+
 </script>
 
-</body>
-</html>
 
